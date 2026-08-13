@@ -311,6 +311,7 @@ body.light .about-txt{color:#334155}
 
 /* EXPERIENCE */
 .exp-card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:2.2rem;position:relative;overflow:hidden;transition:all .3s}
+.exp-card + .exp-card{margin-top:1.6rem}
 .exp-card:hover{border-color:rgba(59,130,246,.3);box-shadow:0 14px 44px rgba(59,130,246,.08);transform:translateY(-2px)}
 .exp-accent{position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--blue),var(--cyan))}
 .exp-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:1rem}
